@@ -21,4 +21,8 @@ function peeler (unsorted_list, sorted_list) =
 
 function sort (list) =
     peeler(list, nil)
-             
+
+let x =
+    sort(pair(5, pair(3, pair(2, pair(4, pair(1, nil))))))
+in
+print(x)
